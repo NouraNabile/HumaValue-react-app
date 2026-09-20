@@ -1,13 +1,11 @@
+import Navbar from "./Navbar"
+
 const Header = ()=>{
     return(
-        <>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Services</li>
-        </ul>
-        </>
+        <header style={{display : 'flex', justifyContent : 'space-around'}}>
+            <a href="/">Logo</a>
+            <Navbar/>
+        </header>
     )
 }
 export default Header
